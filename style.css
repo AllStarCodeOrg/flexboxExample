@@ -1,0 +1,57 @@
+body{
+    margin:0;
+}
+.main-container{
+    width:464px;
+    height:358px;
+    background: url(assets/squares.jpg);
+    margin:auto;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    display:flex;
+}
+
+.circle{
+    width:100px;
+    height:100px;
+    border-radius:50%;
+    border:solid 5px teal;
+    box-sizing: border-box;
+}
+
+.circle:nth-child(12){
+    background-color:#de0708;
+}
+.circle:nth-child(9){
+    background-color:#3e7314;
+}
+.circle:nth-child(6){
+    background-color:#7d3f8a;
+}
+.circle:nth-child(3){
+    background-color:#f68aae;
+}
+.circle:nth-child(11){
+    background-color:#75c6f0;
+}
+.circle:nth-child(8){
+    background-color:#f08a14;
+}
+.circle:nth-child(5){
+    background-color:#000000;
+}
+.circle:nth-child(2){
+    background-color:#79532a;
+}
+.circle:nth-child(10){
+    background-color:#f8de26;
+}
+.circle:nth-child(7){
+    background-color:#0154a2;
+}
+.circle:nth-child(4){
+    background-color:#969696;
+}
+.circle:nth-child(1){
+    background-color:#ffffff;
+}
